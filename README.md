@@ -37,7 +37,7 @@ Responsive Design, Positioning.
 
 ### Useful resources
 
-- [W3Schools](https://www.w3schools.com) - This helpes me every time I code!
+- [W3Schools](https://www.w3schools.com) - This helps me every time I code!
 
 ## Author
 
