@@ -1,58 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
+
+
 
 body {
     background-image: url('../images/bg-pattern-bottom.svg'), url('../images/bg-pattern-top.svg');
     background-position: left 48vw top 52vh, right 50vw bottom 35vh;
     background-repeat: no-repeat, no-repeat;
     background-color: hsl(185, 75%, 39%);
+    width: 100vw;
+    height: auto;
+
+}
+
+.container.center {
     height: 100vh;
-
-}
-
-.container {
-    height: inherit;
     display: flex;
-
-}
-
-.center {
     justify-content: center;
     align-items: center;
 }
 
+
 #card {
-    width: 350px;
-    height: 365px;
+    width: 31.5rem;
+    height: 35.0rem;
     background: white;
-    border-radius: 10px;
+    border-radius: 1.0rem;
 }
 
 #top-background {
     background-image: url('../images/bg-pattern-card.svg');
     width: inherit;
     height: 35%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 1.0rem;
+    border-top-right-radius: 1.0rem;
 }
 
 #profile {
     text-align: center;
     position: relative;
-    bottom: 55px;
+    bottom: 5.5rem;
 }
 
 #profile img {
     border-radius: 100%;
     border: 5px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
 }
 
 hr.thin {
@@ -60,15 +64,16 @@ hr.thin {
     border-top: 1px solid rgba(187, 187, 187, 0.452);
     width: inherit;
     position: relative;
-    bottom: 36px;
+    bottom: 3.6rem;
 }
 .data {
-    line-height: 25px;
+    line-height: 2.5rem;
 }
 
 .bold {
     font-weight: bolder;
     color: hsl(229, 23%, 23%);
+    margin-right: 0.8rem;
 }
 
 .gray {
@@ -80,7 +85,7 @@ hr.thin {
 }
 
 .spacing {
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     font-size: 50%;
 }
 
@@ -88,24 +93,16 @@ hr.thin {
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    bottom: 10px;
+    bottom: 1.0rem;
 }
 
 .activities {
     text-align: center;
 }
 
-.attribution {
-    font-size: 80%;
-}
-
-.attribution a {
-    font-size: 90%;
-}
-
-@media (max-width: 375px) {
+@media screen and (min-width: 376px) {
     #card {
-        width: 315px;
-        height: 350px;
+    width: 35.0rem;
+    height: 36.5rem;        
     }
 }
