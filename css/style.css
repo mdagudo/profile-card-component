@@ -18,6 +18,7 @@ body {
     background-image: url('../images/bg-pattern-bottom.svg'), url('../images/bg-pattern-top.svg');
     background-position: left 48vw top 52vh, right 50vw bottom 35vh;
     background-repeat: no-repeat, no-repeat;
+    background-size: cover; 
     background-color: hsl(185, 75%, 39%);
     width: 100vw;
     height: auto;
